@@ -1,0 +1,35 @@
+.topic{
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    overflow-y: hidden;
+}
+.topic img{
+    width: 202px;
+    margin-top: 15px;
+    margin-left: 24px;
+    object-fit: cover;
+
+}
+.topic .description{
+    position: absolute;
+    width: 202px;
+    font-size: 14px;
+    margin-left: 24px;
+    transform: translateY(0);
+    
+}
+.topic:hover{
+    width: 433px;
+    height: 304px;
+    border-radius: 15px;
+}
+.topic:hover .description{
+    transform: translateY(100%);
+}
+
+.topic:hover img{
+    width: 379px;
+    height: 252px;
+}
